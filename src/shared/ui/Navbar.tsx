@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import PrimaryButton from './PrimaryButton'
 
 
 
@@ -20,11 +21,7 @@ export default function Navbar(){
                 </div>
                 
                 <div>
-                    <button className='px-5 py-3 rounded-[64px] w-[163px] bg-primary flex items-center justify-center'>
-                        <span className='font-jakarta text-[16px] leading-[22px] font-bold text-white'>
-                            Go Pro Today
-                        </span>
-                    </button>
+                    <PrimaryButton onClick={() => {}} text="Go Pro Today" />
                 </div>
             </div>
             

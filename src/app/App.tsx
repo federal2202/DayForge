@@ -1,12 +1,12 @@
 
-import HeroSection from '../widgets/landing/hero/ui/HeroSection'
+import LandingPage from '../pages/landing/LandingPage'
 import './App.css'
 
 function App() {
 
   return (
     <div className=' min-h-screen flex flex-col w-full'>
-      <HeroSection />
+      <LandingPage />
       
     </div>
   )

@@ -8,6 +8,7 @@
   --breakpoint-3xl: 1920px;
   --color-primary: #4F46E5;
   --color-secondary: #475569;
+  --color-grey-dark: #1E293B;
   
   
  
@@ -23,5 +24,6 @@
   --color-avocado-600: oklch(0.53 0.12 118.34);
   --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
   --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  --gradient-radial: radial-gradient(ellipse at center, var(--tw-gradient-stops));
   /* ... */
 }
